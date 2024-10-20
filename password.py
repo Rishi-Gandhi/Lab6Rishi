@@ -1,4 +1,4 @@
-
+#rishi gandhi
 def encode(password):
     encoded_password = ""
     for element in password:
@@ -8,6 +8,7 @@ def encode(password):
         encoded_password += str(digit)
     return encoded_password
 
+#nelson lu
 def decode(password):
     decoded = ''
     for char in password:
