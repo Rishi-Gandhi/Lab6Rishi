@@ -8,9 +8,13 @@ def encode(password):
         encoded_password += str(digit)
     return encoded_password
 
-#add decoded method here:
-
-
+def decode(password):
+    decoded = ''
+    for char in password:
+        x = int(char) + 17
+        x = str(x)
+        decoded += x[1]
+    return decoded_password
 
 while True:
     print("Menu")
