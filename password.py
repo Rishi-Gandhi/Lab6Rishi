@@ -14,7 +14,7 @@ def decode(password):
         x = int(char) + 17
         x = str(x)
         decoded += x[1]
-    return decoded_password
+    return decoded
 
 while True:
     print("Menu")
